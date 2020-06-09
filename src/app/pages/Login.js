@@ -72,7 +72,7 @@ class Login extends React.Component {
           open={this.props.loginError}
           autoHideDuration={6000}
           onClose={this.closeSnackbar}
-          message="Please ensure your email and password is incorrect."
+          message="Please ensure your email and password is correct."
         />
         <Grid
           container
